@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 20, 2017, 7:59:26 PM
+    Author     : sieuw
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+
+
+body { 
+    width:100%;
+ background-image: url("background.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  min-width: 450px;
+    
+}
+
+a{
+    
+    text-decoration:none;
+   color:#ffffff;
+  font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+h1{
+    
+    color:#ffffff;
+    font-size: 600%;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+
+h2{
+    
+  color:#ffffff;
+  font-size: 400%;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+h3{
+    
+  color:#ffffff;
+  font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+#container{
+    
+    margin-top: -8px;
+    height:auto;
+}
+
+#page1{
+    
+height:auto;
+    text-align: center;
+ 
+    
+}
+
+#who{
+ height:3px;
+    text-align: center;
+   margin-top: 15%;
+    
+}
+
+#text{
+margin-top: 2%;
+        height:90%;
+    text-align: center;
+ background-color: rgba(0,0,0,0.8);
+    
+    
+}
+
+
+
+#projects{
+    
+    text-align: center;
+    margin-top: 13%;
+      height:90%;
+  
+}
+
+#social{
+    
+    text-align: center;
+    margin-top: 13%;
+    height:100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#github{
+    
+    width:10%;
+    float:left;
+    margin-left:22.5%;
+}
+
+#youtube{
+    
+    width:10%;
+    float:left;
+    margin-left:1%;
+}
+
+#instagram{
+    
+    width:10%;
+    
+    float:left;
+    margin-left:1%;
+}
+
+#snapchat{
+    
+    width:10%;
+    float:left;
+    margin-left:1%;
+}
+
+#facebook{
+    
+    width:10%;
+    float:left;
+    margin-left:1%;
+}
+
+#button{
+   
+   margin-top: 20%;
+   clear: both
+    
+}
+
+#backbutton{
+   margin-left:42.5%;
+   margin-top: 5%;
+   clear: both
+    
+}
+
+.button {
+   
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+.button {
+    
+    background-color: transparent;
+    color: white; 
+     border: 6px solid white;
+     border-radius: 25px;
+     
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.parallax { 
+    /* The image used */
+ 
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

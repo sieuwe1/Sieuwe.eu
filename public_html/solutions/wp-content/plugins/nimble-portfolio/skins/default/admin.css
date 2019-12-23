@@ -1,0 +1,54 @@
+#sep-gal-images {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#sep-gal-images:hover {
+    background-color: #f00;
+}
+
+#sep-gal-images:hover::after {
+    content: '\a   Click to remove ALL images from Seprate Gallery/Album';
+    white-space: pre;
+}
+
+#sep-gal-images img{
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+#sep-gal-loader {
+    display: none;
+}
+
+.nimble-portfolio-config .tabs > ul {
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.nimble-portfolio-config .tabs > ul > li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.nimble-portfolio-config .tabs > ul > li  > a{
+    outline: none !important;
+}
+
+.nimble-portfolio-config .tabs > ul > li.ui-tabs-active  a{
+    background-color: #fff;
+    color:#000;
+}
+
+.nimble-portfolio-config .tabs .panel-tab {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 10px;
+}
+
+.nimble-portfolio-config table.form-table {
+    margin-top: 0;
+}

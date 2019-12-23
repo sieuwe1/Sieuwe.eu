@@ -1,0 +1,677 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-21 19:14+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/shortcode-generator.php:110
+msgid "Nimble Portfolio - Generate Shortcode"
+msgstr ""
+
+#: includes/shortcode-generator.php:114 includes/tinymce-plugin.php:113
+msgid "Post Type"
+msgstr ""
+
+#: includes/shortcode-generator.php:122 includes/tinymce-plugin.php:121
+#: nimble-portfolio.php:303 nimble-portfolio.php:340
+msgid "Filters Type (Taxonomy)"
+msgstr ""
+
+#: includes/shortcode-generator.php:130 includes/tinymce-plugin.php:129
+msgid "Skin"
+msgstr ""
+
+#: includes/shortcode-generator.php:139 includes/tinymce-plugin.php:138
+msgid "Hide Filters"
+msgstr ""
+
+#: includes/shortcode-generator.php:143 includes/tinymce-plugin.php:143
+msgid "Order By"
+msgstr ""
+
+#: includes/shortcode-generator.php:145 includes/tinymce-plugin.php:145
+msgid "Author"
+msgstr ""
+
+#: includes/shortcode-generator.php:146 includes/tinymce-plugin.php:146
+msgid "Date"
+msgstr ""
+
+#: includes/shortcode-generator.php:147 includes/tinymce-plugin.php:147
+msgid "Last Modified Date"
+msgstr ""
+
+#: includes/shortcode-generator.php:148 includes/tinymce-plugin.php:148
+msgid "Number of Comments"
+msgstr ""
+
+#: includes/shortcode-generator.php:149 includes/tinymce-plugin.php:149
+msgid "Post ID"
+msgstr ""
+
+#: includes/shortcode-generator.php:150 includes/tinymce-plugin.php:150
+msgid "Page Order"
+msgstr ""
+
+#: includes/shortcode-generator.php:151 includes/tinymce-plugin.php:151
+msgid "Post Parent ID"
+msgstr ""
+
+#: includes/shortcode-generator.php:152 includes/tinymce-plugin.php:152
+msgid "Post Slug"
+msgstr ""
+
+#: includes/shortcode-generator.php:153 includes/tinymce-plugin.php:153
+msgid "Post Title"
+msgstr ""
+
+#: includes/shortcode-generator.php:154 includes/tinymce-plugin.php:154
+msgid "Random"
+msgstr ""
+
+#: includes/shortcode-generator.php:158 includes/tinymce-plugin.php:158
+msgid "Order"
+msgstr ""
+
+#: includes/shortcode-generator.php:160 includes/tinymce-plugin.php:160
+msgid "Ascending"
+msgstr ""
+
+#: includes/shortcode-generator.php:161 includes/tinymce-plugin.php:161
+msgid "Descending"
+msgstr ""
+
+#: includes/shortcode-generator.php:165 nimble-portfolio.php:420
+msgid "Generate Shortcode"
+msgstr ""
+
+#: includes/class.NimblePortfolioRecentItemsWidget.php:7
+msgid "Display recent portfolio items in List style"
+msgstr ""
+
+#: includes/class.NimblePortfolioRecentItemsWidget.php:9
+msgid "Nimble Portfolio &mdash; Recent Items"
+msgstr ""
+
+#: includes/class.NimblePortfolioRecentItemsWidget.php:41
+msgid "Recent Portfolio Items"
+msgstr ""
+
+#: includes/class.NimblePortfolioRecentItemsWidget.php:45
+#: skins/default/config.php:54
+msgid "Title"
+msgstr ""
+
+#: includes/class.NimblePortfolioRecentItemsWidget.php:49
+msgid "No. of Items to show"
+msgstr ""
+
+#: includes/class.NimblePortfolioRecentItemsWidget.php:53
+msgid "Round Thumbnail?"
+msgstr ""
+
+#: includes/class.NimblePortfolioSkin.php:73
+msgid "Skin Settings: "
+msgstr ""
+
+#: includes/global-settings.php:25
+msgid "Nimble Portfolio - Global Settings"
+msgstr ""
+
+#: includes/global-settings.php:30
+msgid "Enable Loader"
+msgstr ""
+
+#: includes/global-settings.php:34
+msgid "Loader Color"
+msgstr ""
+
+#: includes/global-settings.php:38
+msgid "Loader Size"
+msgstr ""
+
+#: includes/global-settings.php:40
+msgid "Small"
+msgstr ""
+
+#: includes/global-settings.php:41 includes/prettyphoto/inc/admin.php:23
+#: skins/default/skin.php:79
+msgid "Normal"
+msgstr ""
+
+#: includes/global-settings.php:42
+msgid "Large"
+msgstr ""
+
+#: includes/global-settings.php:43
+msgid "Extra Large"
+msgstr ""
+
+#: includes/global-settings.php:47
+msgid "Force No Cache for Thumbnails"
+msgstr ""
+
+#: includes/global-settings.php:51
+msgid "Force Exact Thumbnail Size Generation"
+msgstr ""
+
+#: includes/class.NimblePortfolio.php:84
+msgid "Loading..."
+msgstr ""
+
+#: includes/class.NimblePortfolio.php:91
+msgid "All"
+msgstr ""
+
+#: includes/tinymce-plugin.php:8
+msgid "Nimble Portfolio Shortcode"
+msgstr ""
+
+#: includes/tinymce-plugin.php:165
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/class.NimblePortfolioShortcodeWidget.php:7
+msgid "Shortcode support in the widget"
+msgstr ""
+
+#: includes/class.NimblePortfolioShortcodeWidget.php:9
+msgid "Nimble Portfolio &mdash; Shortcode"
+msgstr ""
+
+#: includes/class.NimblePortfolioShortcodeWidget.php:34
+msgid "Shortcode"
+msgstr ""
+
+#: includes/prettyphoto/nimble-prettyphoto.php:95
+msgid "Prettyphoto Settings: "
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:17
+msgid "Animation Speed "
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:21
+msgid "Fast"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:22
+msgid "Slow"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:30
+msgid "Download icon"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:35
+msgid "Enable"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:37
+msgid "Disable"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:43
+msgid "Slideshow"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:47
+msgid "empty OR interval time in ms"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:52
+msgid "Autoplay Slideshow"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:65
+msgid "Opacity"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:80
+msgid "Value between 0 and 1"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:85
+msgid "Show title"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:90
+#: includes/prettyphoto/inc/admin.php:103
+#: includes/prettyphoto/inc/admin.php:168
+#: includes/prettyphoto/inc/admin.php:181
+#: includes/prettyphoto/inc/admin.php:194
+#: includes/prettyphoto/inc/admin.php:207
+#: includes/prettyphoto/inc/admin.php:220
+#: includes/prettyphoto/inc/admin.php:233 skins/default/config.php:174
+#: skins/default/config.php:212
+msgid "YES"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:92
+#: includes/prettyphoto/inc/admin.php:105
+#: includes/prettyphoto/inc/admin.php:170
+#: includes/prettyphoto/inc/admin.php:183
+#: includes/prettyphoto/inc/admin.php:196
+#: includes/prettyphoto/inc/admin.php:209
+#: includes/prettyphoto/inc/admin.php:222
+#: includes/prettyphoto/inc/admin.php:235 skins/default/config.php:176
+#: skins/default/config.php:214
+msgid "NO"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:98
+msgid "Allow Resize"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:106
+msgid "Resize the photos bigger than viewport. true/false"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:111
+msgid "Default width"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:120
+msgid "Default height"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:129
+msgid "Counter Separator label"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:133
+msgid "The separator for the gallery counter 1 \"of\" 2"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:138
+msgid "Theme"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:154
+msgid "Horizontal Padding"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:158
+msgid "The padding on each side of the picture"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:163
+msgid "Hide flash"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:171
+msgid ""
+"Hides all the flash object on a page, set to TRUE if flash appears over "
+"prettyPhoto"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:176
+msgid "Autoplay Videos"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:184
+msgid "Automatically start videos: True/False"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:189
+msgid "Modal"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:197
+msgid "If set to true, only the close button will close the window"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:202
+msgid "Deep Linking"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:210
+msgid "Allow prettyPhoto to update the url to enable deeplinking."
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:215
+msgid "Overlay Gallery"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:223
+msgid ""
+"If set to true, a gallery will overlay the fullscreen image on mouse over"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:228
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:236
+msgid "Set to false if you open forms inside prettyPhoto"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:241
+msgid "Addthis Script Tag"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:246
+msgid "Paste script tag from Addthis widget settings here"
+msgstr ""
+
+#: includes/prettyphoto/inc/admin.php:252 skins/default/config.php:292
+msgid "Save Settings"
+msgstr ""
+
+#: nimble-portfolio.php:174 nimble-portfolio.php:195 nimble-portfolio.php:206
+msgid "Portfolio Items"
+msgstr ""
+
+#: nimble-portfolio.php:180
+msgid "Nimble Portfolio"
+msgstr ""
+
+#: nimble-portfolio.php:196
+msgid "Portfolio Item"
+msgstr ""
+
+#: nimble-portfolio.php:197
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: nimble-portfolio.php:198
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: nimble-portfolio.php:199
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: nimble-portfolio.php:200
+msgid "New Portfolio Item"
+msgstr ""
+
+#: nimble-portfolio.php:201
+msgid "View Portfolio Item"
+msgstr ""
+
+#: nimble-portfolio.php:202
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: nimble-portfolio.php:203
+msgid "No Portfolio Items found"
+msgstr ""
+
+#: nimble-portfolio.php:204
+msgid "No Portfolio Items found in Trash"
+msgstr ""
+
+#: nimble-portfolio.php:241 nimble-portfolio.php:252 nimble-portfolio.php:464
+msgid "Filters"
+msgstr ""
+
+#: nimble-portfolio.php:242
+msgid "Filter"
+msgstr ""
+
+#: nimble-portfolio.php:243
+msgid "Add Filter"
+msgstr ""
+
+#: nimble-portfolio.php:244
+msgid "Add New Filter"
+msgstr ""
+
+#: nimble-portfolio.php:245
+msgid "Edit Filter"
+msgstr ""
+
+#: nimble-portfolio.php:246
+msgid "New Filter"
+msgstr ""
+
+#: nimble-portfolio.php:247
+msgid "View Filter"
+msgstr ""
+
+#: nimble-portfolio.php:248
+msgid "Search Filters"
+msgstr ""
+
+#: nimble-portfolio.php:249
+msgid "No Filters found"
+msgstr ""
+
+#: nimble-portfolio.php:250
+msgid "No Filters found in Trash"
+msgstr ""
+
+#: nimble-portfolio.php:347
+msgid "No Taxnomy Found under the Post Type!"
+msgstr ""
+
+#: nimble-portfolio.php:421
+msgid "Global Settings"
+msgstr ""
+
+#: nimble-portfolio.php:423
+msgid "Options"
+msgstr ""
+
+#: nimble-portfolio.php:441
+msgid "Image/Video URL"
+msgstr ""
+
+#: nimble-portfolio.php:443
+msgid "URL from Media Library"
+msgstr ""
+
+#: nimble-portfolio.php:444
+msgid ""
+"Enter URL for the full-size image or video (youtube, vimeo, swf, quicktime) "
+"you want to display in the lightbox gallery. You can also choose Image URL "
+"from your Media gallery <strong>(Please note: If this field is empty then "
+"Featured Image will be used in lightbox gallery)</strong>"
+msgstr ""
+
+#: nimble-portfolio.php:447
+msgid "Portfolio URL"
+msgstr ""
+
+#: nimble-portfolio.php:449
+msgid "Enter URL to the live version of the project."
+msgstr ""
+
+#: nimble-portfolio.php:452 nimble-portfolio.php:466 nimble-portfolio.php:525
+#: nimble-portfolio.php:533 nimble-portfolio.php:546 nimble-portfolio.php:571
+msgid "Sort Order"
+msgstr ""
+
+#: nimble-portfolio.php:454
+msgid "Set the sort order for your item here with 0 being the first and so on."
+msgstr ""
+
+#: nimble-portfolio.php:465 skins/default/config.php:58
+msgid "Thumbnail"
+msgstr ""
+
+#: nimble-portfolio.php:537 nimble-portfolio.php:548
+msgid ""
+"Set the sort order for your category here with 0 being the first and so on."
+msgstr ""
+
+#: skins/default/config.php:55
+msgid "Filter/Pagination Link"
+msgstr ""
+
+#: skins/default/config.php:56
+msgid "Post Permalink"
+msgstr ""
+
+#: skins/default/config.php:57
+msgid "Portfolio URL Link"
+msgstr ""
+
+#: skins/default/config.php:65
+msgid "Position"
+msgstr ""
+
+#: skins/default/config.php:69
+msgid "Before Thumbnail"
+msgstr ""
+
+#: skins/default/config.php:71
+msgid "After Thumbnail"
+msgstr ""
+
+#: skins/default/config.php:73
+msgid "Inside Thumbnail"
+msgstr ""
+
+#: skins/default/config.php:79 skins/default/config.php:107
+#: skins/default/config.php:137 skins/default/config.php:191
+#: skins/default/config.php:230
+msgid "Color"
+msgstr ""
+
+#: skins/default/config.php:88 skins/default/config.php:116
+#: skins/default/config.php:146
+msgid "Background Color"
+msgstr ""
+
+#: skins/default/config.php:103
+msgid "Normal State"
+msgstr ""
+
+#: skins/default/config.php:125 skins/default/config.php:155
+msgid "Border Color"
+msgstr ""
+
+#: skins/default/config.php:133
+msgid "Selected / On Hover"
+msgstr ""
+
+#: skins/default/config.php:170 skins/default/config.php:208
+msgid "Display?"
+msgstr ""
+
+#: skins/default/config.php:182 skins/default/config.php:220
+msgid "Text"
+msgstr ""
+
+#: skins/default/config.php:245
+msgid "Thumbnail Size"
+msgstr ""
+
+#: skins/default/config.php:254
+msgid "Default Hover Icon"
+msgstr ""
+
+#: skins/default/config.php:270
+msgid "Hover Color"
+msgstr ""
+
+#: skins/default/config.php:279
+msgid "Hover Background Color"
+msgstr ""
+
+#: skins/default/skin.php:54
+msgid "Default Skin"
+msgstr ""
+
+#: skins/default/skin.php:56
+msgid "Filters: (no selection means ALL)"
+msgstr ""
+
+#: skins/default/skin.php:68
+msgid "Skin Columns"
+msgstr ""
+
+#: skins/default/skin.php:70
+msgid "2 Columns"
+msgstr ""
+
+#: skins/default/skin.php:71
+msgid "3 Columns"
+msgstr ""
+
+#: skins/default/skin.php:72
+msgid "4 Columns"
+msgstr ""
+
+#: skins/default/skin.php:73
+msgid "5 Columns"
+msgstr ""
+
+#: skins/default/skin.php:77
+msgid "Skin Style"
+msgstr ""
+
+#: skins/default/skin.php:80
+msgid "Round"
+msgstr ""
+
+#: skins/default/skin.php:81
+msgid "Square"
+msgstr ""
+
+#: skins/default/skin.php:85
+msgid "Items per page (enables pagination)"
+msgstr ""
+
+#: skins/default/skin.php:153
+msgid "Browse Image/Video URL"
+msgstr ""
+
+#: skins/default/skin.php:155
+msgid ""
+"Enabling this check will browse the Image/Video URL instead of displaying in "
+"Lightbox"
+msgstr ""
+
+#: skins/default/skin.php:158
+msgid "New tab/window for Image/Video URL"
+msgstr ""
+
+#: skins/default/skin.php:160
+msgid ""
+"Depends on <strong>Browse Image/Video URL</strong>, opens the URL in new "
+"browser tab/window"
+msgstr ""
+
+#: skins/default/skin.php:163
+msgid "Choose hover icon"
+msgstr ""
+
+#: skins/default/skin.php:173
+msgid ""
+"Select hover icon for this item, it will override the icon set in the skin "
+"options page"
+msgstr ""
+
+#: skins/default/skin.php:222
+msgid "Seprate Gallery for this item"
+msgstr ""
+
+#: skins/default/skin.php:237
+msgid "Add/Edit Gallery Images"
+msgstr ""
+
+#: skins/default/skin.php:238
+msgid "Separate Gallery Images"
+msgstr ""
+
+#: skins/default/skin.php:286
+msgid "&laquo; Previous"
+msgstr ""
+
+#: skins/default/skin.php:287
+msgid "Next &raquo;"
+msgstr ""
+
+#: skins/default/skin.php:323
+msgid "&hellip;"
+msgstr ""

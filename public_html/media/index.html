@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	
+    <head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Portfolio media sieuwe</title>
+		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+                
+                
+                <!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+                
+                
+<style>
+  .my_style_classe123
+ {
+
+   color: White;
+   
+ }
+</style>
+
+                
+	</head>
+	<body>
+		<div class="container-fluid demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+                                        <h1 class="main-title">
+                                            
+<div id="display-date1" class="my_style_classe123">        
+</div>
+
+
+<script>
+
+var text="Sieuwe Elferink Portfolio";
+
+
+
+
+var symtype=new Array(" ","A","a","B","b","C","c","D","d","E","e","F","f","G","g","H","h","I","i","J","j","K","k","L","l","M","m","N","n","O","o","P","p","Q","q","R","r","S","s","T","t","U","u","V","v","W","w","X","x","Y","y","Z","z","0","1","2","3","4","5","6","7","8","9",".",",","&","!","?","-","_");
+
+var symarray=new Array();
+
+for (var i=0; i<text.length; i++){
+
+symarray[i]=" ";}
+
+function scroll(){
+
+for (var i=0; i<text.length; i++){
+
+if (symarray[i]!=text.substring(i,i+1)) {
+
+for (var x=0; x<70; x++) if (symarray[i]==symtype[x]) {symarray[i]=symtype[x+1]; break}}
+
+}var outsym="";
+
+for (var i=0; i<text.length; i++) outsym+=symarray[i];
+
+document.getElementById("display-date1").innerHTML = outsym;
+
+setTimeout('scroll()',100);
+
+}scroll();
+
+</script>
+                                           
+                                        </h1>
+                                       
+				</div>
+				
+				<div class="codrops-header">
+					<h1>Portfolio Index <span>Selecteer een opdracht</span></h1>
+					<nav class="codrops-demos">
+						
+						<a href="index.html#section-offer">Digitaal Footprint</a>
+                                                <a href="index.html#section-vlog">Vlog</a>
+                                                <a href="index.html#section-news">De Rode Peper</a>
+						<a href="index.html#section-gallery">Data Visualisatie</a>
+                                                <a href="index.html#section-dialog">Dialogflow</a>
+                                                <a href="index.html#section-user">User Experience</a>
+					</nav>
+				</div>
+			</div>
+                    
+
+                    
+
+    <section class="site-section bg-light" id="section-offer">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12 text-center mb-5 site-animate">
+            
+            <h2 class="display-4">Digitaal footprint</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Voor deze opdracht heb ik onderzoek gedaan na wat ik kon vinden over Faas Boers. Dit heb ik in een presentatie gezet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel site-owl">
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="img/p1.PNG" alt="Free Template by colorlib.com" class="img-fluid">
+                
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="img/p2.PNG" alt="Free Template by colorlib.com" class="img-fluid">
+                 
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="img/p3.PNG" alt="Free Template by colorlib.com" class="img-fluid">
+                  
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="img/p4.PNG" alt="Free Template by colorlib.com" class="img-fluid">
+              
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="img/p5.PNG" alt="Free Template by colorlib.com" class="img-fluid">
+               
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="img/p6.PNG" alt="Free Template by colorlib.com" class="img-fluid">
+               
+                </div>
+              </div>
+
+
+           
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+        <section class="site-section" id="section-vlog">
+      <div class="container">
+        
+
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">MediaVlog</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Een vlog over verschillende media uitingen in Eindhoven.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="center site-animate">
+            
+              
+<iframe width="1000" height="562" src="https://www.youtube.com/embed/yVZONFe6IeA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+             
+          </div>
+      
+        
+      </div>
+    </section>
+    
+    <section class="site-section bg-light" id="section-news">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">De Rode Peper</h2>
+            <div class="row justify-content-center">
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="media d-block mb-4 text-center site-media site-animate">
+              <embed src="img/uitnodeging.pdf" class="img-fluid">
+              <div class="media-body p-md-5 p-4">
+                <h5 class="mt-0 h4">Uitnodiging ontwerp</h5>
+                
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="media d-block mb-4 text-center site-media site-animate">
+             
+              <div class="media-body p-md-5 p-4">
+                <h5 class="mt-0 h4">De opdracht</h5>
+                <p class="mb-4">Van Jan kreeg ik de opdracht om het rode peper logo te maken. De letters uit het logo moeten van pepers gemaakt zijn en het logo moet omringd zijn met een circel van kruiden. Ook moest er een vuur effect aan de letters van peper worden toegevoegd.</p>
+
+                 </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="media d-block mb-4 text-center site-media site-animate">
+                <embed src="img/rode peper jan logo.pdf" class="img-fluid">
+              <div class="media-body p-md-5 p-4">
+                <h5 class="mt-0 h4">Logo ontwerp</h5>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section" id="section-gallery">
+      <div class="container">
+        <div class="row site-custom-gutters">
+
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">Data Visualisatie</h2>
+           
+          </div>
+
+          <div class="col-md-4 site-animate">
+            <a href="img/g1.png" class="site-thumbnail image-popup">
+              <img src="img/g1.png" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 site-animate">
+            <a href="img/g2.png" class="site-thumbnail image-popup">
+              <img src="img/g2.png" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 site-animate">
+              <p class="py-2 d-block">Hiernaast zijn mijn autoritten met de tijd hoelang de rit duurt erbij gezet. Hier groter het verschil is
+tussen de oranje en blauwe balk hoe meer vertraging ik gehad heb onderweg. Ik heb ernaast een grafiek
+gezet van het aantal files per dag van de week. Je kan dien dat er een overeenkomst is tussen het aantal
+files op een dag en mijn rijstijd. Op zondag heb ik meer kilometers gereden in minder tijd dan op
+woensdag en donderdag omdat dit zoals op de rechter grafiek te zien is drukke dagen zijn.</p>
+                
+          </div>
+
+          <div class="col-md-4 site-animate">
+            <a href="img/g3.png" class="site-thumbnail image-popup">
+              <img src="img/g3.png" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 site-animate">
+            <a href="img/g4.png" class="site-thumbnail image-popup">
+              <img src="img/g4.png" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 site-animate">
+            <p class="py-2 d-block">Op de linker grafiek is tezien hoeveel data apps op mijn mobiel gebruiken. Hoe meer ze gebruiken hoe
+meer ik ze gebruik. Daarnast is een grafiek van de meest gebruikte apps op telefoons van de hele
+wereld. Je kan zien dat snapchat en maps twee apps zijn die ik net zoals de rest van de wereld veel
+gebruik. Maar wat opvallend is is dat ik wel veel whatsapp gebruik maar de rest van de wereld niet.</p>
+              
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section bg-light" id="section-dialog" >
+      <div class="container ">
+        
+
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">DialogFlow</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Voor deze opdracht moesten we een chatbot bouwen van een bekend persoon. Ik heb Boef gekozen. Zoals de opdracht hoort praat mijn chatbod als boef. Vraag/praat tegen boef zoals je in het echt ook zou doen. Bijvoorbeeld: hoe gaat het, hoe gaan de zaken, chimmies?, Haat aan armo?</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="center site-animate">
+            
+              
+<iframe
+    allow="microphone;"
+    width="700"
+    height="500"
+    src="https://console.dialogflow.com/api-client/demo/embedded/f94da45a-7897-40cf-b14d-f3e9ca972b17">
+</iframe>
+             
+          </div>
+      
+        
+      </div>
+    </section>
+
+    
+    <section class="site-section" id="section-user">
+      <div class="container">
+        <div class="row site-custom-gutters">
+
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">User Experience</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Met mijn proftaak groepje hebben we een scenario, storyboard en prototype gemaakt voor ons proftaak project: AstroBlaster.</p>
+              </div>
+            </div>
+          </div>
+
+                  <div class="col-md-4 site-animate">
+              <p class="py-2 d-block">De ervaring die gebruikers met het programma van ons product zullen hebben is redelijk simpel, de gebruiker begint op het start scherm waar hij/zij kan kiezen om een spel te starten of om te kijken naar de highscores. Wanneer de gebruiker op start klikt kan er gekozen worden uit verschillende spel modus. Na het kiezen van een spel modus wordt het spel gestart. Wanneer het spel is afgerond kan de gebruiker zijn/haar naam intoetsen wordt de score opgeslagen. Dan wordt de gebruiker terug gestuurd naar het hoofdmenu waar hij/zij op highscores kan klikken om doorgestuurd te worden naar het highscore scherm.</p>
+                
+          </div>
+            
+          <div class="col-md-4 site-animate">
+            <a href="img/storyboard.jpeg" class="site-thumbnail image-popup">
+              <img src="img/storyboard.jpeg" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+            
+          
+            
+          <div class="col-md-4 site-animate">
+            <a href="img/macet1.jpeg" class="site-thumbnail image-popup">
+              <img src="img/macet1.jpeg" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+      
+
+ 
+     
+
+        </div>
+      </div>
+    </section>
+ 
+    <!-- END section -->
+    
+        
+    <footer class="site-footer site-bg-dark site-section">
+      <div class="container">
+        <div class="row center">
+          <div class="center">
+            <div class="row">
+              <div class="center site-animate">
+                <h2 class="site-heading-2">Over de site</h2>
+                <p>Deze website is begonnen als template. Maar er zijn verschillende delen toegevoegd verwijderd en aangepast. Ik heb dus niet alleen maar een template gedownload en content erop gezet! Ik heb diep in de html en css gezeten om de website perfect te krijgen. Daarom hier de link naar de orginele template om te laten zien hoe mijne is aangepast.  <a href="https://colorlib.com/preview/#eatwell" target="_blank">Klik Hier!</a></p>
+              </div>
+        
+             
+            
+            </div>
+          </div>
+         
+        </div>
+        <div class="row site-animate">
+           <div class="col-md-12 text-center">
+            <div class="site-footer-widget mb-4">
+              <ul class="site-footer-social list-unstyled ">
+                <li class="site-animate"><a href="https://www.facebook.com/sieuwe.elferink"><span class="icon-facebook"></span></a></li>
+                <li class="site-animate"><a href="https://www.instagram.com/sieuwe_/"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+            
+          <div class="col-md-12 text-center">
+              
+            <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | by Sieuwe Elferink
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+            
+        </div>
+      </div>
+    </footer>
+
+    
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="reservationModal" tabindex="-1" role="dialog" aria-labelledby="reservationModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="bg-image" style="background-image: url(images/reservation_1.jpg);"></div>
+              </div>
+              <div class="col-lg-12 p-5">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <small>CLOSE </small><span aria-hidden="true">&times;</span>
+                </button>
+                <h1 class="mb-4">Reserve A Table</h1>  
+                <form action="#" method="post">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="m_fname">First Name</label>
+                      <input type="text" class="form-control" id="m_fname">
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <label for="m_lname">Last Name</label>
+                      <input type="text" class="form-control" id="m_lname">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="m_email">Email</label>
+                      <input type="email" class="form-control" id="m_email">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="m_people">How Many People</label>
+                      <select name="" id="m_people" class="form-control">
+                        <option value="1">1 People</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4+">4+ People</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <label for="m_phone">Phone</label>
+                      <input type="text" class="form-control" id="m_phone">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="m_date">Date</label>
+                      <input type="text" class="form-control" id="m_date">
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <label for="m_time">Time</label>
+                      <input type="text" class="form-control" id="m_time">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="m_message">Message</label>
+                      <textarea class="form-control" id="m_message" cols="30" rows="7"></textarea>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input type="submit" class="btn btn-primary btn-lg btn-block" value="Reserve Now">
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END Modal -->
+
+    <!-- loader -->
+    <div id="site-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    
+    <script src="js/jquery.animateNumber.min.js"></script>
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+
+    <script src="js/main.js"></script>
+
+    
+			
+		
+                
+                
+                </div><!-- /container -->
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
+	</body>
+</html>

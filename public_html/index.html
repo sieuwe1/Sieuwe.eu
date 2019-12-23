@@ -1,102 +1,654 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>Sieuwe</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" type="text/css" href="Style.css" />
-         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-         
-    </head>
-    <body>
-        <div id="container">
+﻿<!DOCTYPE html>
+<html lang="en">
 
-            <div id="page1">
-               
-                <h1>Hi!</h1>
+<head>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-102433275-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-102433275-1');
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sieuwe.eu</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Sieuwe.eu</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a href="http://solutions.sieuwe.eu">Solutions</a>
+                    </li>           
+                    <li class="nav-item">
+                        <a href="http://cloud.sieuwe.eu">Cloud Storage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://docs.sieuwe.eu">Paper's</a>
+                    </li>   
+                    <li class="page-scroll">
+                        <a href="#portfolio">Project's</a>
+                    </li>
+                      <li class="page-scroll">
+                        <a href="#Hobby">Hobby's</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-fluid img-rounded" style="width: 55%;" src="img/sieuwe1.jpeg"  alt="" >
+                    <div class="intro-text">
+                        <h1 class="name">Hi i am Sieuwe</h1>
+                        <hr class="star-light">
+                        <span class="skills">Electronics, Python, Computer Vision, Ai, Electronics, Arduino, IOT, 3D printing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        
+        <div class="container">
+            
+             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Featured</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            
+            <div class="row">
+                  <div class="col-lg-12 text-center portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ARdrone.jpg" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Coming Soon</h2>
+                        <hr class="star-light">
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                      <div class="col-lg-12 text-center portfolio-item">
+                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/RoadDetection.gif" class="img-responsive" alt="Cabin">
+                        </a>
+                    </div>
+                </div>
               
-                <h2>I am Sieuwe</h2>
-                <button class="button" > <a href="#who">Who am I?</a> </button> 
-                
+             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <hr class="star-light">
+                </div>
             </div>
             
-            <div id="who"></div>
-             
-                <div id="text">
+              <div class="row">
                   
-                     <br>
-                <h1>Who am I?</h1>
-                <h3>Hi i am Sieuwe Elferink. I am a HTML,Css,Java and learning C# programmer.</h3>
-                <h3>I am also a enthusiastic electronics hobbyist who has made a lot of projects already.</h3>
-                <h3>Check out some project of mine down here.</h3>
-                <br>
-                <button class="button" > <a href="#projects">Projects</a> </button> 
-             </div>
-                
-                
-          
-            
-            <div id="projects">
-               
-                <h1>Projects</h1>
-                <br>
-                <button class="button" > <a href="About.html">This Website</a> </button>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cortanaRoom.jpg" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 text-center portfolio-item">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/brain.png" class="img-responsive" alt="Cabin">
+                        </a>
+                    </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cortanargb.jpg" class="img-responsive" alt="Slice of cake">
+                    </a>
+                </div>
+                  
+
              
-                <button class="button" > <a href="About.html">CortanaRoom</a> </button>
-                <br>
-                <br>
-                <br>
-                <br>
-                <button class="button" > <a href="#social">Social</a> </button> 
-                
             </div>
-            
-            <div id="social">
-                <br>
-                <h1>Social</h1>
-                <h3>Find me on social media!</h3>
+
+            <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/door.jpg" class="img-responsive" alt="Slice of cake">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/quad.jpg" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+                
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/robotbutler.jpg" class="img-responsive" alt="Slice of cake">
+                    </a>
+                </div>
+                  
              
-                <div id="github">
+            </div>
+           
+        </div>
+    </section>
+    
+    
+        <!-- About Section -->
+    <section class="success" id="Hobby">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Hobby's</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                                        <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/F1cXQPGzkoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <p>Hi i am Sieuwe Elferink. I am a HTML,Css,Java and learning C# programmer. I am also a electronic enthusiastic who has made a lot of projects already. Check out some projects i made above or visit my instructables!</p>
+                  
+                </div>
+            </div>
+<div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-dark" href="http://solutions.sieuwe.eu/">
+          <p>Business Contact</p>
+        </a>
+      </div>
+    </section>
+
+   
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Netherlands</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                                      <h3>Find me on social media!</h3>
+             <ul class="list-inline">
+                
+                 
+                 <li>
+                 <div id="github">
                    <a href="https://github.com/sieuwe1" target="_blank">
-  <img src="github.png" alt="HTML tutorial" style="width:100%">
+  <img src="img/Github.jpg" alt="HTML tutorial" style="width:90%">
 </a>
                 </div>
+                 </li>
+                 <li>
                 <div id="youtube">
                     <a href="https://github.com/sieuwe1" target="_blank">
-  <img src="youtube.png" alt="HTML tutorial" style="width:100%">
+  <img src="img/youtube.jpg" alt="HTML tutorial" style="width:90%">
 </a>
                 </div>
+                 </li>
+                     <li>
                 <div id="instagram">
                    <a href="https://www.instagram.com/sieuwe_/" target="_blank">
-  <img src=instagram.png alt="HTML tutorial" style="width:100%">
+  <img src=img/insta.jpg alt="HTML tutorial" style="width:90%">
 </a>
                 </div>
-                <div id="snapchat">
-                    <a href="snapcode.html" >
-  <img src="snapchat.png" alt="HTML tutorial" style="width:100%">
-</a>
-                </div>
+                     </li>
+                  
+                     <li>  
                 <div id="facebook">
                   <a href="https://www.facebook.com/sieuwe.elferink" target="_blank">
-  <img src="facebook.png" alt="HTML tutorial" style="width:100%">
+  <img src="img/facebook.jpg" alt="HTML tutorial" style="width:90%">
 </a> 
                 </div>
-             
-                
-                <div id="button">
-                <button class="button" > <a href="#page1">Top</a> </button> 
+                     </li>
+             </ul>       
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Sieuwe.eu</h3>
+                        <p>Sieuwe.eu is a website running on a small server at my home. The site was a template but has been heavy modified for my needs.</p>
+                    </div>
                 </div>
-                
-                
-            </div>    
-            
             </div>
-         
-       
-    </body>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Sieuwe.eu 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>CortanaRoom</h2>
+                            <hr class="star-primary">
+                            <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bN5MxCF-QB8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                            <p>CortanaRoom is a complete Arduino based DIY home controller. It can control your lights, Doors, RGB led strips and it can even function as a wake up light. With cortanaRoom you can control this all with your voice. The only things yuo need are some relays a windows 10 computer a Arduino and some wires. For instructions and a demo click the link below. Note: cortanaRoom is still in development</p>
+                            <ul class="list-inline item-details">
+                             
+                                <li>Build it yourself
+                                    <p><a href="http://www.instructables.com/id/Use-Cortana-and-a-Arduino-for-Home-Automation-to-C/">Instructions</a><p>
+                                    
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>CortanaRGB</h2>
+                            <hr class="star-primary">
+                            <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/i4B5IB3PZXY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                            <p>CortanaRGB is an complete RGB controller for multiple RGB accessories. With cortanaRGB you can control RGB accessories with your voice and use build in effects. For cortanaRGB you only need: a Arduino, a windows 10 PC, 3 n-channel mosfet, and common annode RGB accessories. Check out the build tutorial and a demo with the link below. </p>
+                            <ul class="list-inline item-details">
+                               <li>Build it yourself
+                                    <p><a href="http://www.instructables.com/id/Use-Cortana-and-a-Arduino-to-Control-RGB-Leds-or-L/">Instructions</a><p>
+                                    
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ArduMind</h2>
+                            <hr class="star-primary">
+                            <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kbzIDT0Aby8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                            <p>Have you ever wanted to turn the lights ON or OFF just by thinking about it? Or do you want to know how stressed you are by looking at the color of a RGB led? While now you can by following this Instructables!</p>
+                            <ul class="list-inline item-details">
+                               <li>Build it yourself
+                                    <p><a href="https://www.instructables.com/id/3-Amazing-BRAIN-MIND-Control-Projects-Lights-LedSt/">Instructions</a><p>
+                                    
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+   
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ArduDoor</h2>
+                            <hr class="star-primary">
+                            <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A_yJqOZcIQ0?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                            <p>Ever wanted to make your door open automatic just like in sci-fi movies? Now you can by following this Instructable. In this instructable we will build a door which can open and close automatically without you touching the door. Ultrasonic sensors on the door will detect you from 50 cm away and will open the door automatic. You don't have to touch the door it will do everything automatic!</p>
+                            <ul class="list-inline item-details">
+                               <li>Build it yourself
+                                    <p><a href="https://www.instructables.com/id/Make-a-Automatic-Self-Sensing-Opening-and-Closing-/">Instructions</a><p>
+                                    
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ArduQuad</h2>
+                            <hr class="star-primary">
+                            <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bVIsolkEP1k?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                            <p>In today's Instructable we will turn a 1000Watt(Yes I know its alot!) Electric Kid's quad into a Self Driving, Line Following and Obstacle Avoiding vehicle!</p>
+                            <ul class="list-inline item-details">
+                               <li>Build it yourself
+                                    <p><a href="https://www.instructables.com/id/Kids-Quad-Hacking-Into-a-Self-Driving-Line-Followi/">Instructions</a><p>
+                                    
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    
+    
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ESP8266 Robot</h2>
+                            <hr class="star-primary">
+                            <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M9ebk9RKWeA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                            <p>Do you hate to walk to the kitchen to grap a snack? Or to get a new drink? This can all be fixed with this simple $15 remote controlled butler.</p>
+                            <ul class="list-inline item-details">
+                               <li>Build it yourself
+                                    <p><a href="https://www.instructables.com/id/Build-a-15-Remote-Controlled-ESP8266-Robot-Butler-/">Instructions</a><p>
+                                    
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Self Flying AR-Drone</h2>
+                                <hr class="star-primary">
+                                <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vgv0OpEXAWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    </div>
+                                <p>Use Python and OpenCV to make an AR-Drone fly autonomously above an Red circle. When the drone is pushed away it can find the center of the circle by itself. Watch the video above for instructions.</p>
+                            
+                                <ul class="list-inline item-details">
+                                        <li>The Code
+                                             <p><a href="https://github.com/sieuwe1/AR-Drone">Github</a><p>
+                                             
+                                         </li>
+                                     </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>Advanced read/lane detection</h2>
+                                    <hr class="star-primary">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                            <img src="img/portfolio/RoadDetection.gif" class="img-responsive" alt="Cabin">
+                                    </div>
+
+                                    <p>Using nvidia's semantic-segmentation CNN to in real time detect road edges and drive a real vehicle. </p>
+                                    <ul class="list-inline item-details">
+                                            <li>The Code
+                                                 <p><a href="https://github.com/sieuwe1/Advanced-Real-Time-Self-Driving">Github</a><p>
+                                                 
+                                             </li>
+                                         </ul>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+
+<!-- MetaData -->
+
+<script type='application/ld+json'>
+{
+"@context": "http://www.sieuwe.eu,
+"@type": "person",
+"name": "Sieuwe Elferink",
+"jobTitle": "Entrepreneur",
+"url": "www.sieuwe.eu",
+"sameAs": [
+"https://www.facebook.com/sieuwe.elferink",
+"https://www.plus.google.com/u/0/108400290732208578705",
+"https://www.instagram.com/sieuwe_/"
+],
+"email": "Sieuwe_crossen@hotmail.com",
+"telephone": "+31625354456",
+"birthDate": "2000-3-30"
+}
+</script>
+
+</body>
+
 </html>
